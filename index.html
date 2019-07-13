@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" href="images/icon.png">
+
+	<title>Happy Birthday</title>
+</head>
+<body>
+	
+	<button id="btn" class="btn btn-success">Tap Me</button>
+
+	<div id="show1" class="bg-primary text-white text-center p-2">
+		<h3>HAPPY BIRTHDAY LOVE, I LOVE YOUUU SOO MUCHH</h3>
+		<h3>🤗😘🤗😘🤗😘</h3>
+	</div>
+
+	<div id="headerCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000" data-pause="false">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="d-block w-100" src="images/slide1.jpg" alt="First slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="images/slide2.jpg" alt="Second slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="images/slide3.jpg" alt="Third slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="images/slide4.jpg" alt="Fourth slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="images/slide5.jpg" alt="Fifth slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="images/slide6.jpg" alt="Sixth slide">
+			</div>
+		</div>
+	</div>
+
+	<br>
+
+	<div id="show2" class="container-fluid">
+		<div class="card shadow border-primary rounded-0">
+			<img src="images/gif3.gif">
+		</div>
+	</div>
+
+	<br>
+
+	<div id="show3" class="container-fluid section" tabindex="-1">
+		<div class="love text-center">
+			<img class="rounded-circle" src="images/love.jpg" height="125" alt="">
+		</div>
+
+		<div class="card shadow border-primary rounded-0">
+			<div class="card-body mt-5 text-justify">
+				Hi Love, Alam mo naman yung palagi kong sinasabi na Ang ganda ganda mo, like on this pic, Hihi. And you know I meant it. 🤗😘. Happy Birthday po, Love ko, Lifey ko, Asawa ko, Wifey ko and more 😂. Your pogi doesn't have everything, but have doesn't everything 😂. No, seriously I mean sa ngayon wala pa ako na maibibigay sa'yo na special, but alam ko naman we'll go to that point of our life, as long as we keep this relationship/love that we have, that we built together. Basta we keep on moving, together, as one. Trusting each other each day. Ikaw, ikaw yung nagmulat saakin sa kung paano mag mahal, kahit up to now, di ko parin magawa ang lahat in proper way. Pero, I'm doing my best to fill up everything, and hiling ko sana ang walang sawa mong pasensya, Mahal na mahal na mahal kita Love, always take care, and thanks to God he let me Love someone like youu. again Happy 19th Birthday, enjoy your day. Ofcourse with mee your one and onlyyy one. 🤗😘.
+			</div>
+		</div>
+	</div>
+
+	<br>
+
+	<div id="show4" class="container-fluid">
+		<div class="card shadow border-primary rounded-0">
+			<img src="images/gif1.gif" height="210">
+			<img src="images/gif2.gif" height="210">
+			<img src="images/gif4.gif" height="210">
+		</div>
+	</div>
+
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br><br>
+	<br>
+	<br>
+	<br>
+	<br><br>
+	<br>
+	<br>
+	<br>
+	<br><br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var btnCount = 1;
+			$('#btn').click(function(e){
+				if(btnCount == 1){
+					$("#show1").animate({marginTop:"-=1000px"}, 1000);
+					$('html, body').animate({
+				        scrollTop: $("#show1").position().top - 20
+				    }, 750);
+				}else if(btnCount == 2){
+					$("#show2").animate({marginTop:"-=1000px"}, 1000);
+					$('html, body').animate({
+				        scrollTop: $("#show2").position().top - 20
+				    }, 750);
+				}else if(btnCount == 3){
+					$("#show3").animate({marginTop:"-=1000px"}, 1000);
+					$('html, body').animate({
+				        scrollTop: $("#show3").position().top - 20
+				    }, 750);
+				}else if(btnCount == 4){
+					$("#show4").animate({marginTop:"-=1000px"}, 1000);
+					$('html, body').animate({
+				        scrollTop: $("#show4").position().top - 20
+				    }, 750);
+				}
+
+				btnCount += 1;
+			});
+		});
+	</script>
+</body>
+</html>
