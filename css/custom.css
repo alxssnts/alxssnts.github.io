@@ -1,36 +1,60 @@
+* {
+	font-family: roboto;
+	transition: background-color 0.25s ease-in-out;
+}
 
+body {
+	font-size: .9rem;
+}
 
-.carousel-item img {
+.nav-link {
+	text-shadow: 2px 2px 3px #000000;
+}
+
+.carousel-item img{
 	max-height: 600px;
 	opacity: 85%;
 }
 
-#btn {
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	z-index: 1000;
+.social-media a{
+	margin: 10px;
 }
 
-#show1 {
-	margin-top: 1000px;
-}
-
-#show2 {
-	margin-top: 1000px;
-}
-
-#show3 {
-	margin-top: 1000px;
-}
-
-#show4 {
-	margin-top: 1000px;
-}
-
-
-.love {
-	position: relative;
-	margin-bottom: -50px;
+.myImage {
+	width: 100%;
+	position: absolute;
+	margin-top: -15%;
 	z-index: 10;
+}
+
+.myImage img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: -175px auto 0 auto;
+	height: 150px;
+	width: 150px;
+
+	pointer-events: none !important;
+}
+
+.myImage p{
+	text-shadow: 2px 2px 3px #000000;
+}
+
+@media only screen and (max-width: 768px) {
+	.myImage {
+		
+		margin-top: -25%;
+	}
+
+	.myImage img {
+		margin: -125px auto 0 auto;
+		height: 120px;
+		width: 120px;
+	}
+
+	.myImage p{
+		font-size: 1.5em;
+	}
 }
