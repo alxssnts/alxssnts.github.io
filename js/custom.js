@@ -13,7 +13,7 @@ $(document).scroll(function() {
 	
 	var headheight = $('#headerCarousel').height();
 	var scroll = $(this).scrollTop();
-	if(scroll > (headheight-70)){
+	if(scroll > (headheight-55)){
 		$('.navbar').removeClass('bg-0').addClass('bg-primary');
 	}else {
 		$('.navbar').removeClass('bg-primary').addClass('bg-0');
